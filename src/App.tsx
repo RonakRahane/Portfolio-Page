@@ -54,7 +54,7 @@ function App(){
 
       {/* Hero Section */}
       <section className="relative overflow-hidden py-20 sm:py-32">
-        <div className="absolute inset-0 bg-[url('/Portfolio-Page/src/images/background.jpeg')] bg-cover bg-center opacity-25 dark:opacity-10"></div>
+        <div className="absolute inset-0 bg-[url('/Portfolio-Page/images/background.jpeg')] bg-cover bg-center opacity-25 dark:opacity-10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 text-transparent bg-clip-text">
@@ -88,7 +88,7 @@ function App(){
             <div className="relative group max-w-sm mx-auto cursor-pointer" onClick={handleProfileClick}>
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
               <img
-                src="/Portfolio-Page/src/images/picture.png"
+                src="Portfolio-Page/images/picture.png"
                 alt="Profile"
                 className={`relative w-80 h-80 object-cover rounded-lg shadow-2xl transition-all duration-300 mx-auto transform hover:scale-105 ${profileClicked ? 'scale-110' : ''}`}
               />
