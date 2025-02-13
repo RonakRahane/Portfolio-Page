@@ -88,7 +88,7 @@ function App(){
             <div className="relative group max-w-sm mx-auto cursor-pointer" onClick={handleProfileClick}>
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
               <img
-                src="/RonakRahane/Portfolio-Page/blob/b8eac20386e11e5ddd5f650cef505636c795fc24/images/picture.png"
+                src="https://github.com/RonakRahane/Portfolio-Page/blob/main/images/picture.png"
                 alt="Profile"
                 className={`relative w-80 h-80 object-cover rounded-lg shadow-2xl transition-all duration-300 mx-auto transform hover:scale-105 ${profileClicked ? 'scale-110' : ''}`}
               />
